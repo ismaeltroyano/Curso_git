@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>            
+    <head>                    
+        <meta charset="utf-8">                    
+        <title>Calculadora</title>        
+<script>
+        var num1=prompt("Introduce el primer numero");
+        var num2=prompt("Introduce el segundo numero");
+        var operacion=prompt("Que operacion deseas realizar? suma, resta, multiplicación o división");      
+        
+        if(operacion == "suma"){
+            alert(parseInt(num1)+parseInt(num2));
+        }  
+        else if(operacion == "resta"){
+            alert(parseInt(num1)-parseInt(num2));
+        }
+        else if(operacion == "multiplicacion" || operacion=="multiplicación"){
+            alert(parseInt(num1)*parseInt(num2));
+        }
+        else if(operacion == "division" || operacion=="división"){
+            alert(parseInt(num1)/parseInt(num2));
+        } 
+        else{
+            alert("Error al definir la operación");
+        }           
+                    
+</script>  
+            
+    </head>            
+    <body>            
+    </body>
+</html>
